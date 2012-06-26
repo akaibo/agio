@@ -1,7 +1,14 @@
 # -*- ruby encoding: utf-8 -*-
 
-require 'text/format'
 require 'digest/md5'
+
+module Text
+    class Format
+        attr_accessor :first_indent
+        attr_accessor :columns
+        def format_one_paragraph(s); s; end
+    end
+end
 
 ##
 # The Bourse is where the incoming HTML document, after parsing through the

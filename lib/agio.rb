@@ -2,7 +2,6 @@
 
 require 'nokogiri'
 require 'stringio'
-require 'text/format'
 
 ##
 # = Agio
